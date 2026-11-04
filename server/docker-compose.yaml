@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: tola-admin
     ports:
-      - "8030:80"
+      - "8026:80"
 
   client:
     build:
@@ -15,4 +15,4 @@ services:
       dockerfile: Dockerfile
     container_name: tola-client
     ports:
-      - "8031:80"
+      - "8027:80"
